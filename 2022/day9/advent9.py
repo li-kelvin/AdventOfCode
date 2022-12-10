@@ -17,6 +17,8 @@ for i in Lines:
         cycle += 1
     
     elif i[0:4] == "addx":
+        
+        
         cycle += 1
         print(cycle, greater)
         greater += int(i[5:])
@@ -28,6 +30,6 @@ for i in Lines:
 
     print(cycle, greater)
     
-    
+ 
     
 print(20* 21 + 60 *23    +100 * 25  +140 * 14 +180* 5 + 220*21)
