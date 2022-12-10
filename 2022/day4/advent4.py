@@ -6,16 +6,10 @@ Created on Thu Dec  8 23:10:11 2022
 @author: kelvinli
 """
 
-
-
 file1 = open('advent4.txt', 'r')
 Lines = file1.readlines()
 
 counter = 0
-
-
-
-
 
 for line in Lines:
     list1 = []
